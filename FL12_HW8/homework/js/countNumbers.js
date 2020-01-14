@@ -1,9 +1,9 @@
-function countNumbers(input) {
+function countNumbers(string) {
     let numbers = '';
     let myObject = {};
-    for (let i = 0; i < input.length; i++) {
-        if (parseInt(input[i])) {
-        numbers = numbers + input[i];
+    for (let i = 0; i < string.length; i++) {
+        if (parseInt(string[i])) {
+        numbers = numbers + string[i];
         }
     }
     for(let i = 0; i < numbers.length; i++) {

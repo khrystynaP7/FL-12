@@ -1,8 +1,8 @@
-function makeNumber(input) {
+function makeNumber(string) {
     let newArray = [];
-      for (let i = 0; i < input.length; i++) {
-        if (parseInt(input[i])) {
-        newArray.push(input[i]);
+      for (let i = 0; i < string.length; i++) {
+        if (parseInt(string[i])) {
+        newArray.push(string[i]);
         }
 	}
 	return newArray.join('');
