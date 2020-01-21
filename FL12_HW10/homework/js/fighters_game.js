@@ -1,5 +1,5 @@
-const fighter1 = new Fighter ({name: 'Maximus', damage: 25, hp: 100, strength: 30, agility: 25});
-const fighter2 = new Fighter ({name: 'Alex', damage: 30, hp: 110, strength: 60, agility: 15});
+const fighter1 = new Fighter({name: 'Maximus', damage: 25, hp: 100, strength: 30, agility: 25});
+const fighter2 = new Fighter({name: 'Alex', damage: 30, hp: 110, strength: 60, agility: 15});
 
 function Fighter(myFighter) {
     const name = myFighter.name;
@@ -97,7 +97,7 @@ function battle(fighter1, fighter2) {
             fighter1.addLoss();
             fighter2.addWin();
         } else if(fighter2.getHealth() <= 0) {
-            console.log ('The winner of the battle is ' + fighter1.getName())
+            console.log('The winner of the battle is ' + fighter1.getName())
             fighter2.addLoss();
             fighter1.addWin();
         }
