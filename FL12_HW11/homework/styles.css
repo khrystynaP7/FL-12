@@ -1,0 +1,30 @@
+*{
+  margin: 20px;
+  padding-left: 5px;
+}
+ul li{
+  list-style: none;
+  padding-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+div{
+  position: relative;
+}
+.folder_container{
+  color: orange;
+}
+.file_container{
+  color: lightgrey;
+}
+.full:hover{
+  background: lightgrey;
+}
+.children{
+  display: none;
+}
+.active{
+  display: block;
+}
+
+
